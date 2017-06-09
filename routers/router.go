@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"Trade/controllers"
+	"github.com/huzhihao2002/trade/controllers"
 
 	"github.com/astaxie/beego"
 )

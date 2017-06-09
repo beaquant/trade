@@ -1,12 +1,13 @@
 package main
 
 import (
-	_ "Trade/routers"
 	"fmt"
 	"net/http"
 	"time"
 
-	_ "Trade/controllers"
+	_ "github.com/huzhihao2002/trade/routers"
+
+	_ "github.com/huzhihao2002/trade/controllers"
 
 	"github.com/astaxie/beego"
 	"github.com/nntaoli/crypto_coin_api"

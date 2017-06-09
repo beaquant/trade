@@ -1,12 +1,13 @@
 package test
 
 import (
-	_ "Trade/routers"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"
 	"runtime"
 	"testing"
+
+	_ "github.com/huzhihao2002/trade/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"

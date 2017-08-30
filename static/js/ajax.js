@@ -63,7 +63,6 @@
 				document.getElementById("POLO_XMR").innerHTML = jsonObj.POLO.XMR.CNY.toFixed(4);
 				document.getElementById("POLO_ARDR").innerHTML = jsonObj.POLO.ARDR.CNY.toFixed(4);
 				document.getElementById("POLO_GNT").innerHTML = jsonObj.POLO.GNT.CNY.toFixed(4);
-				document.getElementById("POLO_BTM").innerHTML = jsonObj.POLO.BTM.CNY.toFixed(4);
 
 
 				document.getElementById("BITTREX_BTC").innerHTML = jsonObj.BITTREX.BTC.CNY.toFixed(4)+"  ("+jsonObj.BITTREX.BTC.Percent.toFixed(1)+"%)";
@@ -187,7 +186,7 @@
 				document.getElementById("JUBI_HLB").innerHTML = jsonObj.JUBI.HLB.CNY.toFixed(4)+"  ("+jsonObj.JUBI.HLB.Percent.toFixed(1)+"%)";
 				document.getElementById("JUBI_QTUM").innerHTML = jsonObj.JUBI.QTUM.CNY.toFixed(4)+"  ("+jsonObj.JUBI.QTUM.Percent.toFixed(1)+"%)";
 				document.getElementById("JUBI_EOS").innerHTML = jsonObj.JUBI.EOS.CNY.toFixed(4)+"  ("+jsonObj.JUBI.EOS.Percent.toFixed(1)+"%)";
-				document.getElementById("JUBI_BTM").innerHTML = jsonObj.JUBI.BTM.CNY.toFixed(4)+"  ("+jsonObj.JUBI.BTM.Percent.toFixed(1)+"%)";
+				document.getElementById("JUBI_BTM").innerHTML = jsonObj.JUBI.BTM.CNY.toFixed(4);
 
 				document.getElementById("CHBTC_BTC").innerHTML = jsonObj.CHBTC.BTC.CNY.toFixed(4)+"  ("+jsonObj.CHBTC.BTC.Percent.toFixed(1)+"%)";
 				document.getElementById("CHBTC_LTC").innerHTML = jsonObj.CHBTC.LTC.CNY.toFixed(4)+"  ("+jsonObj.CHBTC.LTC.Percent.toFixed(1)+"%)";
@@ -261,7 +260,7 @@
 				document.getElementById("BIAN_BTC").innerHTML = jsonObj.BIAN.BTC.CNY.toFixed(4)+"  ("+jsonObj.BIAN.BTC.Percent.toFixed(1)+"%)";
                 document.getElementById("BIAN_LTC").innerHTML = jsonObj.BIAN.LTC.CNY.toFixed(4)+"  ("+jsonObj.BIAN.LTC.Percent.toFixed(1)+"%)";
                 document.getElementById("BIAN_ETH").innerHTML = jsonObj.BIAN.ETH.CNY.toFixed(4)+"  ("+jsonObj.BIAN.ETH.Percent.toFixed(1)+"%)";
-                document.getElementById("BIAN_BCC").innerHTML = jsonObj.BIAN.ETC.CNY.toFixed(4)+"  ("+jsonObj.BIAN.ETC.Percent.toFixed(1)+"%)";
+                document.getElementById("BIAN_BCC").innerHTML = jsonObj.BIAN.BCC.CNY.toFixed(4)+"  ("+jsonObj.BIAN.BCC.Percent.toFixed(1)+"%)";
                 document.getElementById("BIAN_ANS").innerHTML = jsonObj.BIAN.ANS.CNY.toFixed(4)+"  ("+jsonObj.BIAN.ANS.Percent.toFixed(1)+"%)";
                 document.getElementById("BIAN_QTUM").innerHTML = jsonObj.BIAN.QTUM.CNY.toFixed(4)+"  ("+jsonObj.BIAN.QTUM.Percent.toFixed(1)+"%)";
                 document.getElementById("BIAN_EOS").innerHTML = jsonObj.BIAN.EOS.CNY.toFixed(4)+"  ("+jsonObj.BIAN.EOS.Percent.toFixed(1)+"%)";
